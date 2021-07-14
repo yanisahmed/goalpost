@@ -424,9 +424,6 @@ p.copyright {
         max-width: 815px;
     }
     
-    .gp-blog{
-        grid-template-columns: 1fr 1fr;
-    }
     .gp-navigation {
         flex-direction: row;
         display: grid;
@@ -444,7 +441,7 @@ p.copyright {
     }
     .gp-banner {
         flex-direction: column;
-        row-gap: 33px;
+        row-gap: 5rem;
         margin-top: 0;
     }
     
@@ -457,6 +454,10 @@ p.copyright {
 
     .gp-banner-img img {
         max-width: 358px;
+    }
+
+    .gp-blog{
+        grid-template-columns: 1fr 1fr;
     }
     
     .gp-highlight{
